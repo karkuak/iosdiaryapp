@@ -533,15 +533,15 @@ struct ShakeEffect: GeometryEffect {
 `
   },
   {
-    name: "DiaryApp.swift",
+    name: "SecureDiaryApp.swift",
     language: "swift",
     description: "The application's Root Scene configuration. Implements the SwiftData container, core navigation routers, and handles automatic foreground/background locking states via ScenePhase.",
-    path: "DiaryApp.swift",
+    path: "SecureDiaryApp.swift",
     code: `import SwiftUI
 import SwiftData
 
 @main
-struct DiaryApp: App {
+struct SecureDiaryApp: App {
     // Inject and observe ScenePhase lifecycle events
     @Environment(\\.scenePhase) private var scenePhase
     
@@ -917,7 +917,7 @@ public struct DiaryEditorView: View {
 `
   },
   {
-    name: "Info.plist Configuration",
+    name: "Info.plist",
     language: "xml",
     description: "Crucial iOS system configuration strings that must be bundled with the application to authorize local biometric FaceID queries.",
     path: "Supporting Files/Info.plist",
@@ -958,10 +958,11 @@ Inside your Xcode File Navigator (left pane), right-click your root folder and c
 - 📁 \`Models\` (Create \`DiaryEntry.swift\` inside this)
 - 📁 \`Managers\` (Create \`SecurityManager.swift\` inside this)
 - 📁 \`Views\` (Create \`AuthViews.swift\`, \`TimelineView.swift\`, and \`EditorView.swift\` inside this)
+- 📁 \`Supporting Files\` (Create \`Info.plist\` inside this)
 
 ### 💾 Step 3: Copy Code Snippets
 1. Select each folder inside Xcode, hit **⌘N** (New File), choose **Swift File** or **SwiftUI View**, name it according to our list, and paste the precise code files.
-2. In the root, overwrite the content of \`SecureDiaryApp.swift\` with the provided code in the **App Root Scene** tab (\`DiaryApp.swift\`).
+2. In the root, overwrite the content of \`SecureDiaryApp.swift\` with the provided code in the **App Root Scene** tab (\`SecureDiaryApp.swift\`).
 
 ### 🔑 Step 4: Add Face ID Hardware Declarations (Info.plist)
 Apple demands a specific description string when asking a user to authorize biometric checks. If this key is missing, your app will crash on startup if biometrics trigger.

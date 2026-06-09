@@ -307,7 +307,7 @@ export default function CodeViewer() {
                   Copy Files Content
                 </h3>
                 <p className="pl-6 text-[#8E8E93]">
-                  Select each file from our list, hit <strong>⌘N</strong> inside your Xcode group, select Swift File or SwiftUI view interface, and paste the precise code lines. Ensure you replace the main <code className="text-[#007AFF] font-mono bg-[#F2F2F7] px-1 py-0.5 rounded border border-[#E5E5EA]">SecureDiaryApp.swift</code> of the project root with the <code className="text-[#007AFF] font-mono">DiaryApp.swift</code> content.
+                  Select each file from our list, hit <strong>⌘N</strong> inside your Xcode group, select Swift File or SwiftUI view interface, and paste the precise code lines. Ensure you replace the main <code className="text-[#007AFF] font-mono bg-[#F2F2F7] px-1 py-0.5 rounded border border-[#E5E5EA]">SecureDiaryApp.swift</code> of the project root with the <code className="text-[#007AFF] font-mono">SecureDiaryApp.swift</code> content.
                 </p>
               </div>
 
