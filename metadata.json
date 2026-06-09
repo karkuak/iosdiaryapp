@@ -1,0 +1,6 @@
+{
+  "name": "iOS Diary SwiftUI Studio",
+  "description": "An interactive iOS simulator and developer playground for a secured, biometrics-locked SwiftData diary app with 4-digit PIN setup, FaceID simulation, and real-time Swift source code viewer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
